@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load load_static %}
+
+{% block container %}
+<div class="col1-layout" id="container">
+  <div id="content" class="center">
+    <h2>{{ flatpage.title }}</h2>
+    {{ flatpage.content|load_static }}
+    
+  </div>
+</div>
+{% endblock %}
