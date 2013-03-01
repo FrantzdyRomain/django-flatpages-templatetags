@@ -30,6 +30,4 @@ def load_static(val):
 </div>
 {% endblock %}
 
-4. Test it out!
-in a sample flatpage just post an image like so
-<div class="test"><img src="{{ STATIC_URL }}images/monitor.png" width="450" height="395" alt="slide-3">
+ 
